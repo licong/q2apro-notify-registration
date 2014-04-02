@@ -6,6 +6,16 @@ Description
 -----------
 This is a plugin_ for Question2Answer_ that notifies the admin or somebody else by email if a new user registers in the forum.
 
+-------
+Preface
+-------
+With q2a v.1.6.3 under *admin/spam* you have the option: "Email me when a new user registers". With this plugin:
+
+#. you can specify another email address that should be informed,
+#. the IP address is included in the email with a link to block it.
+#. profile fields specified at registration are supposed to be included in the email as well, however, this is not possible with q2a v1.6.3. I hope I can add it in the future.
+#. The plugin serves new developers as an **example for an event plugin** including admin options!
+
 ------------
 Installation
 ------------
@@ -41,6 +51,7 @@ Question2Answer_ is a free and open source PHP software for Q&A sites.
 Final Note
 ----------
 If you use the plugin:
+
   * Consider joining the `Question2Answer forum`_, answer some questions or write your own plugin!
   * You can use the code of this plugin to learn more about q2a-plugins. It is commented code.
   * Visit q2apro.com_ to get more free and premium plugins_.
