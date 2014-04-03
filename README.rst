@@ -13,6 +13,7 @@ With q2a v.1.6.3 under *admin/spam* you have the option: "Email me when a new us
 
 #. you can specify another email address that should be informed,
 #. the IP address is included in the email with a link to block it.
+#. the country of the new user is determined and included in the email.
 #. profile fields specified at registration are supposed to be included in the email as well, however, this is not possible with q2a v1.6.3. I hope I can add it in the future.
 #. The plugin serves new developers as an **example for an event plugin** including admin options!
 
